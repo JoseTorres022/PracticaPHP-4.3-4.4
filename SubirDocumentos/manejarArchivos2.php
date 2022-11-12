@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['EnviarArchivo'])) {
     $directorio = '../archivos/';
-    $direccionCompleta = $directorio . basename($_FILES('BuscarArchivo'['name']));
+    $direccionCompleta = $directorio . basename($_FILES['BuscarArchivo']['name']);
 
     $infoDocumento = pathinfo($direccionCompleta);
     echo "<br>" . $direccionCompleta;
@@ -35,4 +35,5 @@ if (isset($_POST['EnviarArchivo'])) {
     if (isset($_POST['EnviarArchivo'])) {
         echo "Archivo bajado con exito";
     }
+    
 ?>
