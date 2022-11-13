@@ -9,19 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../PracticaPHP 4.3-4.4/miestilo.css">
+    <link rel="stylesheet" href="/miestilo.css">
 </head>
 
 <body>
 
     <main>
 
-        <p>Practica 4.3 Tratamiento de Formularios | Practica 4.4 Manejo de Objetos de Servidor</p>
-        <header>Gestor de Archivos <span>by josé torres</span></header>
+        <p class="practica">Practica 4.3 Tratamiento de Formularios | Practica 4.4 Manejo de Objetos de Servidor</p>
+        <header>Gestor de Archivos <span>José Torres</span></header>
 
-        <section>
+        <section class="section1">
             <div class="titulos">
-                <p class="tituloTXT">Crear archivo .txt</p>
+                <p class="titulos">Crear archivo .txt</p>
             </div>
             <!-- ?php
             echo $_GET['mensaje'];
@@ -34,23 +34,28 @@
                         archivo (.txt)</button></a </div>
         </section>
 
-        <form class="formulalrio-2" action="../PracticaPHP 4.3-4.4/SubirDocumentos/manejarArchivos2.php" method="post"
-            enctype="multipart/form-data">
-            <p class="titulo-fomrulario1">Subir Documentos</p>
+        <section class="section2">
+            <div>
+                <p class="titulos">Subir Documentos</p>
+            </div>
+            <form class="formulalrio-2" action="../PracticaPHP 4.3-4.4/SubirDocumentos/manejarArchivos2.php"
+                method="post" enctype="multipart/form-data">
 
-            <fieldset>
-                <legend>Sube tus archivos PDF, Word o Excel</legend>
-                <div>
-                    <input type="file" name="BuscarArchivo">
-                </div>
-                <div>
-                    <input type="submit" name="EnviarArchivo" value="Subir">
-                </div>
-                <div>
-                    <!-- <button><a href="../"></a></button> -->
-                </div>
-            </fieldset>
-        </form>
+                <fieldset>
+                    <legend>Sube tus archivos PDF, Word o Excel</legend>
+                    <div>
+                        <input type="file" name="BuscarArchivo">
+                    </div>
+                    <div>
+                        <input type="submit" name="EnviarArchivo" value="Subir">
+                    </div>
+                    <div>
+                        <!-- <button><a href="../"></a></button> -->
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
     </main>
 </body>
 

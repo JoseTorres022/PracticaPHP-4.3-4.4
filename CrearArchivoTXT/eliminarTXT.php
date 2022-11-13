@@ -6,6 +6,6 @@ $elminarTXT='../CrearArchivoTXT/mitexto.txt';
 unlink($elminarTXT);
 
 //regresar al usuario un paso atras
-$mensaje='se elimino el archivo';
+// $mensaje='se elimino el archivo';
 // header('location:../index.php?mensaje='.$mensaje);
 ?>
