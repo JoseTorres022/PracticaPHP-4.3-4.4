@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/miestilo.css">
+    <link rel="stylesheet" href="../PracticaPHP 4.3-4.4/miestilo.css">
 </head>
 
 <body>
@@ -23,9 +23,9 @@
             <div class="titulos">
                 <p class="titulos">Crear archivo .txt</p>
             </div>
-            <!-- ?php
-            echo $_GET['mensaje'];
-            ?> -->
+            <?php
+            echo $_GET['msg'];
+            ?>
             <div class="botones">
                 <a href="../PracticaPHP 4.3-4.4/CrearArchivoTXT/crearTXT.php"><button>Crear fichero</button></a>
                 <a href="../PracticaPHP 4.3-4.4/CrearArchivoTXT/eliminarTXT.php"><button>Eliminar fichero</button></a>
