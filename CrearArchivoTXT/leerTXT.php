@@ -8,4 +8,3 @@ while (!feof($textos)) {
 }
 fclose($textos);
 // echo '</br><a href="../index.php"></a>';
-?>

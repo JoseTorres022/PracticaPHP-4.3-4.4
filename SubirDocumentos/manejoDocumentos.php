@@ -35,5 +35,5 @@ if (isset($_POST['EnviarArchivo'])) {
     if (isset($_POST['EnviarArchivo'])) {
         echo "Archivo bajado con exito";
     }
-    
+
 ?>

@@ -17,4 +17,3 @@ echo("Se le ha escrito los datos correctamente.");
 //regresar al usuario un paso atras
 $mensaje='se creo el archivo';
 header('location:../index.php?msg='.$mensaje);
-?>

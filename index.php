@@ -38,8 +38,7 @@
             <div>
                 <p class="titulos">Subir Documentos</p>
             </div>
-            <form class="formulalrio-2" action="../PracticaPHP 4.3-4.4/SubirDocumentos/manejarArchivos2.php"
-                method="post" enctype="multipart/form-data">
+            <form class="formulalrio-2" action="../PracticaPHP 4.3-4.4/SubirDocumentos/manejoDocumentos.php" method="post" enctype="multipart/form-data">
 
                 <fieldset>
                     <legend>Sube tus archivos PDF, Word o Excel</legend>
