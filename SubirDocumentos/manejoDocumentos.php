@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['EnviarArchivo'])) {
-    $directorio = '../archivos/';
+    $directorio = '../Documentos/';
     $direccionCompleta = $directorio . basename($_FILES['BuscarArchivo']['name']);
 
     $infoDocumento = pathinfo($direccionCompleta);

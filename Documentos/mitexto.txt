@@ -1,2 +1,5 @@
-Textos creados por mi :3 
-Jose Torres
+Este es un archivo con extension .txt 
+practica relizada por: Jose Torres 
+Materia: Programacion WEB 
+En Cd. Juarez, Chihuahua 
+-----Fin de los datos-----
